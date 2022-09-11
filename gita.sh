@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $# ]; then
+if [ $1 ]; then
 	MESSAGE=$1
 else
 	MESSAGE="Auto Commit"
