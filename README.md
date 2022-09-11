@@ -9,5 +9,5 @@ cd gita
 
 
 #How to use
-Just type gita
+gita "commit message"
 gita will add, commit and push for you
