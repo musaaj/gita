@@ -4,7 +4,7 @@ if [ $1 ]; then
 else
 	MESSAGE="Auto Commit"
 fi
-
+echo $MESSAGE
 git add .
 git commit -m "${MESSAGE}"
 git push
