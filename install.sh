@@ -7,8 +7,8 @@ BIN_PATH="${HOME}/../usr/bin"
 WRAPPER="gita"
 
 if [ "${BIN_PATH}/${WRAPPER}" ]; then
-	echo "gita already installed"
-	
+	rm "${BIN_PATH}/${WRAPPER}"
+
 fi
 
 cp "${GITA}" "${BIN_PATH}/${GITA}"
