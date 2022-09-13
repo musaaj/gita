@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo $1
 if [ ! $1 ]; then
 	MESSAGE=$1
 else
