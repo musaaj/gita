@@ -1,6 +1,6 @@
 #!/bin/bash
 echo $1
-if [ ! $1 ]; then
+if [ -z "$1" ]; then
 	MESSAGE=$1
 else
 	MESSAGE="Auto Commit"
