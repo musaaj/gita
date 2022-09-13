@@ -8,7 +8,7 @@ WRAPPER="gita"
 
 if [ "${BIN_PATH}/${WRAPPER}" ]; then
 	echo "gita already installed"
-	exit 1
+	
 fi
 
 cp "${GITA}" "${BIN_PATH}/${GITA}"

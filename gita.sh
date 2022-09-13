@@ -6,5 +6,5 @@ else
 fi
 
 git add .
-git commit -m "$MESSAGE"
+git commit -m "${MESSAGE}"
 git push
