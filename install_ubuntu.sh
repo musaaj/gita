@@ -3,7 +3,7 @@
 echo "unpacking binaries..."
 
 GITA="gita.sh"
-BIN_PATH="${HOME}/usr/bin"
+BIN_PATH="/usr/bin/"
 WRAPPER="gita"
 
 if [ "${BIN_PATH}/${WRAPPER}" ]; then
